@@ -1,0 +1,90 @@
+<style>
+
+		body {
+			font-family: 'Roboto';
+		}
+
+		.forgot-password {
+			text-align: right;
+			font-size: 11px;
+			margin: 5px 0px 20px 0px;
+		}
+
+.button {
+  background-color: #2196f3;
+  border: none;
+  color: white;
+  padding: 15px 124px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*margin: 4px 2px;*/
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 1;
+}
+ .abc{
+ 	font-size: 14px;
+ 	padding-bottom: 15px
+
+ }
+ .def{
+ 	padding-top: 10%;
+ 	padding-left: 35%;
+ }
+ .ghi{
+ 	border: 1px solid #e1e1e1;
+ 	margin: 5px 0;
+ 	padding: 8px 0 8px 8px;
+ }
+ #para {
+	position: absolute;
+    top: 20px;
+    right: 40px;
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    text-transform: lowercase;
+}
+
+.msg_left {
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+
+
+	.left_side 
+	  {
+	     background-color: #2196f3;
+	     display: flex;
+	    height: 100vh;
+	    width: 30%;
+	    align-items: center;
+	    text-align: center;
+	  }
+
+ 		.right_side 
+      {
+      	display: flex;
+    height: 100vh;
+    margin: auto;
+    width: fit-content;
+    align-items: center;
+     /*float: left;
+     margin: 0px 0 0px 0;
+     /*padding: 150px 0px 55px 155px;
+     padding-left: 170px;
+
+     width:70%;
+     border: 1px solid #CCCCCC;
+     /*background-color: #FFFFFF;
+     color: #000000; */
+      }
+      .logo-image {
+      	height: 100px;
+      }
+</style>
