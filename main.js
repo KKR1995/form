@@ -9,16 +9,16 @@ var Objpeople = [
 	}
 ]
 function getInfo() {
-	var email = document.getElementById("email").value
-	var password = document.getElementById("password").value
-	console.log("your email id is " + email + " and your password is " + password)
+	var email = document.getElementById("email").value;
+	var password = document.getElementById("password").value;
+	console.log("your email id is " + email + " and your password is " + password);
 		
-		for(var i=0; i<Objpeople.length; i++){
-			if(email==Objpeople[i].email && password==Objpeople[i].password){
-				console.log(email + "is logedin!!")
-				return
-			}
+	for(var i=0; i<Objpeople.length; i++){
+		if(email==Objpeople[i].email && password==Objpeople[i].password){
+			console.log(email + "is logedin!!");
+			return;
 		}
-		console.log("incorrect emai id and Password")		
+	}
+	console.log("incorrect emai id and Password");		
 }
 	
