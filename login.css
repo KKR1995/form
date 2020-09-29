@@ -24,28 +24,28 @@ body {
 .button:hover {
   opacity: 1;
 }
- .abc{
+.abc{
  	font-size: 14px;
  	padding-bottom: 15px
 
- }
- .def{
+}
+.def{
  	padding-top: 10%;
  	padding-left: 35%;
- }
- .ghi{
+}
+.ghi{
  	border: 1px solid #e1e1e1;
  	margin: 5px 0;
  	padding: 8px 0 8px 8px;
- }
- #para {
+}
+#para {
 	position: absolute;
-    top: 20px;
-    right: 40px;
-    text-decoration: none;
-    color: grey;
-    font-size: 12px;
-    text-transform: lowercase;
+  top: 20px;
+  right: 40px;
+  text-decoration: none;
+  color: grey;
+  font-size: 12px;
+  text-transform: lowercase;
 }
 
 .msg_left {
@@ -69,16 +69,16 @@ body {
   margin: auto;
   width: fit-content;
   align-items: center;
-      /*float: left;
-       margin: 0px 0 0px 0;
-      /*padding: 150px 0px 55px 155px;
-      padding-left: 170px;
+  /*float: left;
+  margin: 0px 0 0px 0;
+  /*padding: 150px 0px 55px 155px;
+  padding-left: 170px;
 
-      width:70%;
-      border: 1px solid #CCCCCC;
-      /*background-color: #FFFFFF;
-      color: #000000; */
-      }
-      .logo-image {
-      	height: 100px;
-      }
+  width:70%;
+  border: 1px solid #CCCCCC;
+  /*background-color: #FFFFFF;
+  color: #000000; */
+}
+.logo-image {
+  height: 100px;  
+}
