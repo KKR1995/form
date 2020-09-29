@@ -1,13 +1,13 @@
 
-		body {
-			font-family: 'Roboto';
-		}
+body {
+  font-family: 'Roboto';
+}
 
-		.forgot-password {
-			text-align: right;
-			font-size: 11px;
-			margin: 5px 0px 20px 0px;
-		}
+.forgot-password {
+	text-align: right;
+	font-size: 11px;
+	margin: 5px 0px 20px 0px;
+}
 
 .button {
   background-color: #2196f3;
@@ -54,34 +54,30 @@
   width: 100%;
 }
 
+.left_side  {
+	background-color: #2196f3;
+	display: flex;
+	height: 100vh;
+	width: 30%;
+	align-items: center;
+	text-align: center;
+}
 
+.right_side {
+  display: flex;
+  height: 100vh;
+  margin: auto;
+  width: fit-content;
+  align-items: center;
+      /*float: left;
+       margin: 0px 0 0px 0;
+      /*padding: 150px 0px 55px 155px;
+      padding-left: 170px;
 
-	.left_side 
-	  {
-	     background-color: #2196f3;
-	     display: flex;
-	    height: 100vh;
-	    width: 30%;
-	    align-items: center;
-	    text-align: center;
-	  }
-
- 		.right_side 
-      {
-      	display: flex;
-    height: 100vh;
-    margin: auto;
-    width: fit-content;
-    align-items: center;
-     /*float: left;
-     margin: 0px 0 0px 0;
-     /*padding: 150px 0px 55px 155px;
-     padding-left: 170px;
-
-     width:70%;
-     border: 1px solid #CCCCCC;
-     /*background-color: #FFFFFF;
-     color: #000000; */
+      width:70%;
+      border: 1px solid #CCCCCC;
+      /*background-color: #FFFFFF;
+      color: #000000; */
       }
       .logo-image {
       	height: 100px;
