@@ -1,15 +1,13 @@
-var Objpeople = [
-	{
+var Objpeople = [{
+
 		email:"kanhaiyakumar@gmail.com",
 		password:"kanhaiya"
 	},
-		
 	{
 		email:"kanhaiyakumar123@gmail.com",
 		password:"kanhaiya123"
 	}
 ]
-
 function getInfo() {
 	
 	var email = document.getElementById("email").value
