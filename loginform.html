@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
+
 <html>
 <head>
 	<title>Demo page</title>
+
+	
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 	<style>
 
@@ -96,14 +98,15 @@
 </style>
 </head>
 <body style="margin:unset;">
-	
+
+	<form>
 
 	<div style="width:100%;display: flex;">
 		<div class="left_side">
 			<div class="msg_left">
-				<div>
+				<!--<div>
 					<img class="logo-image" src="https://i.pinimg.com/originals/69/6b/8b/696b8b8aa775971c56533fca526c879f.png">
-				</div>
+				</div>-->
 				<p style="font-size:20px"> India's First waterless car <br> cleaning company</p>
 			</div>
 		</div>
@@ -112,15 +115,59 @@
 			<a href="https://www.w3schools.com" id="para">NEED HELP?</a>
 			<div>
 				<p style="font-size:30px;text-align: center;"> Login</p>
-				<label class="abc" for="Email" >Email:</label><br>
+				<label class="abc" for="email" >Email:</label><br>
 				<input class="ghi" type="text" id="email" name="email" placeholder="abc@email.com" size="35" autocomplete="off">
 				<br>  <br>
 				<label class="abc" for="password">Password:</label><br>
 				<input  class="ghi" type="password" id="password" placeholder="********" size="35" autocomplete="off"><br>  
 				<a href="file:///C:/Users/chotu/Desktop/git/form/forgetpassword.html"><p class="forgot-password"> <em>Forget Password?</em></p></a>
-			  	<button class= "button"> Login  </button>
+			  	<button class= "button" onclick="getInfo()"> Login  </button>
 			</div>
 		</div>
-	
+	</form>
+
+
+	<script>
+
+
+		 var Objpeople = [{
+
+		 email:"kanhaiyakumar@gmail.com",
+		 password:"kanhaiya"
+		},
+		{
+
+		email:"kanhaiyakumar123@gmail.com",
+		 password:"kanhaiya123"
+
+		}
+
+		]
+
+
+
+			 function getInfo() 
+	 	{
+
+		var email = document.getElementById("email").value
+		var password = document.getElementById("password").value
+		console.log("your email id is " + email + " and your password is " + password)
+
+
+				 for(var i=0; i<Objpeople.length; i++)
+			{
+
+				 if(email==Objpeople[i].email && password==Objpeople[i].password)
+				{
+						console.log(email + "is logedin!!")
+						return
+				}
+			}
+				console.log("incorrect emai id and Password")
+		}
+
+		</script>
+
+		
 </body>
 </html>
